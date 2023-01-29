@@ -1,0 +1,20 @@
+<Modules>
+  <!-- Enables algorithm that returns least number of items (coins or notes)-->
+  <Module>
+      <Name>WithdrawlSchemeA</Name>
+      <Load>False</Load>
+      <ModuleName>WithdrawlSchemeA</ModuleName>
+      <ModuleType>WithdrawlSchemeA.WithdrawlSchemeModuleA, WithdrawlSchemeA</ModuleType>
+      <Ref>WithdrawlSchemeA.dll</Ref>
+    </Module>
+
+  <!-- Enables algorithm that returns the highest number of preferred denomination
+  (that can be chosen from UI) -->
+    <Module>
+      <Name>WithdrawlSchemeB</Name>
+      <Load>True</Load>
+      <ModuleName>WithdrawlSchemeB</ModuleName>
+      <ModuleType>WithdrawlSchemeB.WithdrawlSchemeModuleB, WithdrawlSchemeB</ModuleType>
+      <Ref>WithdrawlSchemeB.dll</Ref>
+    </Module>
+</Modules>

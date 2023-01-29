@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM", "ATM\ATM.csproj", "{74D59B8B-7E0D-47DA-837A-6A9FB4202906}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9398F368-2CCB-44DA-A49D-A4243629FC19} = {9398F368-2CCB-44DA-A49D-A4243629FC19}
+		{797CDABA-5B54-497C-99A6-8C2F74ACA615} = {797CDABA-5B54-497C-99A6-8C2F74ACA615}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{6A97BB43-415C-4501-93FD-2B684181D79E}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Microsoft.Practices.Prism.dll = Lib\Microsoft.Practices.Prism.dll
+		Lib\Microsoft.Practices.Prism.UnityExtensions.dll = Lib\Microsoft.Practices.Prism.UnityExtensions.dll
+		Lib\Microsoft.Practices.ServiceLocation.dll = Lib\Microsoft.Practices.ServiceLocation.dll
+		Lib\Microsoft.Practices.Unity.dll = Lib\Microsoft.Practices.Unity.dll
+		Lib\System.Windows.Interactivity.dll = Lib\System.Windows.Interactivity.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Interfaces\Infrastructure.csproj", "{2ED61BBD-B49F-4E66-864C-9D1056D3DFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithdrawlSchemeA", "WithdrawlSchemeA\WithdrawlSchemeA.csproj", "{797CDABA-5B54-497C-99A6-8C2F74ACA615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithdrawlSchemeB", "WithdrawlSchemeB\WithdrawlSchemeB.csproj", "{9398F368-2CCB-44DA-A49D-A4243629FC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{213AD3D2-B305-44BB-BE9A-97CB76E585EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D59B8B-7E0D-47DA-837A-6A9FB4202906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D59B8B-7E0D-47DA-837A-6A9FB4202906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D59B8B-7E0D-47DA-837A-6A9FB4202906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D59B8B-7E0D-47DA-837A-6A9FB4202906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED61BBD-B49F-4E66-864C-9D1056D3DFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED61BBD-B49F-4E66-864C-9D1056D3DFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED61BBD-B49F-4E66-864C-9D1056D3DFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED61BBD-B49F-4E66-864C-9D1056D3DFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797CDABA-5B54-497C-99A6-8C2F74ACA615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797CDABA-5B54-497C-99A6-8C2F74ACA615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797CDABA-5B54-497C-99A6-8C2F74ACA615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797CDABA-5B54-497C-99A6-8C2F74ACA615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9398F368-2CCB-44DA-A49D-A4243629FC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9398F368-2CCB-44DA-A49D-A4243629FC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9398F368-2CCB-44DA-A49D-A4243629FC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9398F368-2CCB-44DA-A49D-A4243629FC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213AD3D2-B305-44BB-BE9A-97CB76E585EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213AD3D2-B305-44BB-BE9A-97CB76E585EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213AD3D2-B305-44BB-BE9A-97CB76E585EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213AD3D2-B305-44BB-BE9A-97CB76E585EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8B24DCF-6A48-4F0C-85AA-B6D9CAF4CA52}
+	EndGlobalSection
+EndGlobal
